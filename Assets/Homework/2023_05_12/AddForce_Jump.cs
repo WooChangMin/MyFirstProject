@@ -29,7 +29,7 @@ public class AddForce_Jump : MonoBehaviour
 
     public void OnMove(InputValue value)
     {
-        Debug.Log("눌림");
+        // Debug.Log("눌림");
         moveDir.x = value.Get<Vector2>().x;
         moveDir.z = value.Get<Vector2>().y;
     }

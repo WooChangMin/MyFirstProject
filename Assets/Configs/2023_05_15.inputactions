@@ -1,0 +1,54 @@
+{
+    "name": "2023_05_15",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "997d3746-d11d-4e8f-9ad9-205664c71f7d",
+            "actions": [
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "a4ac6fe9-ea3e-46b5-8ddd-4097013f08a5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RapidFire",
+                    "type": "PassThrough",
+                    "id": "55887591-4d9f-42ee-8487-7c46b77a8a5e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9b4a1fef-b6da-4b80-9179-2a809946597f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f1e5222f-ed92-4882-9f61-86f6d697449a",
+                    "path": "<Keyboard>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RapidFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
